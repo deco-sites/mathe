@@ -66,11 +66,9 @@ const manifest = {
   "sections": {
     "deco-sites/mathe/sections/Animation/Animation.tsx": $$$$$$0,
     "deco-sites/mathe/sections/Cards/IconCardsCarousel.tsx": $$$$$$1,
-    "deco-sites/mathe/sections/Cards/IconCardsCarouselWithImage.tsx":
-      $$$$$$2,
+    "deco-sites/mathe/sections/Cards/IconCardsCarouselWithImage.tsx": $$$$$$2,
     "deco-sites/mathe/sections/Cards/ImageCardsCarousel.tsx": $$$$$$3,
-    "deco-sites/mathe/sections/Cards/ImageCardsCarouselWithImage.tsx":
-      $$$$$$4,
+    "deco-sites/mathe/sections/Cards/ImageCardsCarouselWithImage.tsx": $$$$$$4,
     "deco-sites/mathe/sections/Category/CategoryBanner.tsx": $$$$$$5,
     "deco-sites/mathe/sections/Category/CategoryGrid.tsx": $$$$$$6,
     "deco-sites/mathe/sections/Category/CategoryList.tsx": $$$$$$7,
@@ -101,8 +99,7 @@ const manifest = {
     "deco-sites/mathe/sections/Miscellaneous/CookieConsent.tsx": $$$$$$32,
     "deco-sites/mathe/sections/Miscellaneous/Slide.tsx": $$$$$$33,
     "deco-sites/mathe/sections/Newsletter/Newsletter.tsx": $$$$$$34,
-    "deco-sites/mathe/sections/Product/ImageGalleryFrontBack.tsx":
-      $$$$$$35,
+    "deco-sites/mathe/sections/Product/ImageGalleryFrontBack.tsx": $$$$$$35,
     "deco-sites/mathe/sections/Product/NotFound.tsx": $$$$$$36,
     "deco-sites/mathe/sections/Product/NotFoundChallenge.tsx": $$$$$$37,
     "deco-sites/mathe/sections/Product/ProductDetails.tsx": $$$$$$38,
