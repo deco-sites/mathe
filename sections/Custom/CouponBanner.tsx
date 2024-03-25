@@ -10,7 +10,7 @@ const CouponBanner = (props: CouponBanner) => {
   return (
     <>
       <div>
-        <b>Cupom: </b>
+        <b>Cupom:</b>
         {couponCode}
       </div>
       {description && <div>{description}</div>}
