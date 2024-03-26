@@ -1,4 +1,4 @@
-import Icon, { AvailableIcons } from '../../components/ui/Icon.tsx';
+import Icon, { AvailableIcons } from "../../components/ui/Icon.tsx";
 
 export type Item = {
   label: string;
@@ -24,7 +24,7 @@ export default function FooterItems({
           {/* Tablet and Desktop view */}
           <ul
             class={`hidden md:flex flex-row gap-6 pt-8 lg:gap-10 ${
-              justify && 'lg:justify-between'
+              justify && "lg:justify-between"
             }`}
           >
             {sections.map((section) => (
