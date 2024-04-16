@@ -9,8 +9,14 @@ export default {
     extend: {
       animation: {
         sliding: "sliding 30s linear infinite",
+        slowZoomIn: "slowZoomIn 6s ease-in-out forwards",
       },
       keyframes: {
+        slowZoomIn: {
+          to: {
+            transform: "scale(1.25)",
+          },
+        },
         sliding: {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(-50%)" },
