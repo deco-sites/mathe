@@ -8,6 +8,9 @@ import type { SectionProps } from "deco/types.ts";
 import Alert from "./Alert.tsx";
 import Navbar from "./Navbar.tsx";
 import { headerHeight } from "./constants.ts";
+import { Section } from "deco/blocks/section.ts";
+import { PreactComponent } from "deco/engine/block.ts";
+import ToastContainer from "../../islands/ToastContainer.tsx";
 
 export interface Logo {
   src: ImageWidget;
@@ -40,6 +43,7 @@ export interface Props {
   logoPosition?: "left" | "center";
 
   buttons?: Buttons;
+  totalVotes?: Section;
 }
 
 function Header({
@@ -77,19 +81,21 @@ function Header({
   logoPosition = "center",
   buttons,
   device,
+  totalVotes,
 }: SectionProps<typeof loader>) {
   const platform = usePlatform();
   const items = navItems ?? [];
 
   return (
     <>
+      <ToastContainer />
       <header style={{ height: headerHeight }}>
         <Drawers
           menu={{ items }}
           searchbar={searchbar}
           platform={platform}
         >
-          <div class="bg-base-100 fixed w-full z-50">
+          <div class="bg-orange-50 fixed w-full z-50">
             {alerts && alerts.length > 0 && <Alert alerts={alerts} />}
             <Navbar
               device={device}
@@ -98,6 +104,7 @@ function Header({
               logo={logo}
               logoPosition={logoPosition}
               buttons={buttons}
+              totalVotes={totalVotes as PreactComponent<unknown>}
             />
           </div>
         </Drawers>

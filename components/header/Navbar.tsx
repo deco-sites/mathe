@@ -15,15 +15,26 @@ import NavItem from "./NavItem.tsx";
 import { navbarHeight } from "./constants.ts";
 import { Buttons, Logo } from "../../components/header/Header.tsx";
 
+import { Section } from "deco/blocks/section.ts";
+
 // Make it sure to render it on the server only. DO NOT render it on an island
 function Navbar(
-  { items, searchbar, logo, buttons, logoPosition = "left", device }: {
+  {
+    items,
+    searchbar,
+    logo,
+    buttons,
+    logoPosition = "left",
+    device,
+    totalVotes,
+  }: {
     items: SiteNavigationElement[];
     searchbar?: SearchbarProps;
     logo?: Logo;
     buttons?: Buttons;
     logoPosition?: "left" | "center";
     device: "mobile" | "desktop" | "tablet";
+    totalVotes: Section;
   },
 ) {
   const platform = usePlatform();
@@ -54,6 +65,7 @@ function Navbar(
 
         <div class="flex justify-end gap-1">
           <SearchButton />
+          {totalVotes && <totalVotes.Component {...totalVotes.props} />}
           {platform === "vtex" && <CartButtonVTEX />}
           {platform === "vnda" && <CartButtonVDNA />}
           {platform === "wake" && <CartButtonWake />}
@@ -130,6 +142,9 @@ function Navbar(
             WISHLIST
           </a>
         )}
+
+        {totalVotes && <totalVotes.Component {...totalVotes.props} />}
+
         {!buttons?.hideCartButton && (
           <div class="flex items-center text-xs font-thin">
             {platform === "vtex" && <CartButtonVTEX />}

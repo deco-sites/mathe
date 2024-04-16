@@ -1,0 +1,712 @@
+{
+  "@type": "ProductDetailsPage",
+  "breadcrumbList": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "name": "Feminino",
+        "item": "https://deco-sites-storefront.deno.dev/feminino",
+        "position": 1
+      },
+      {
+        "@type": "ListItem",
+        "name": "Roupas",
+        "item": "https://deco-sites-storefront.deno.dev/feminino/roupas",
+        "position": 2
+      },
+      {
+        "@type": "ListItem",
+        "name": "Saias",
+        "item": "https://deco-sites-storefront.deno.dev/feminino/roupas/saias",
+        "position": 3
+      },
+      {
+        "@type": "ListItem",
+        "name": "Saia Jeans Light Passion",
+        "item": "https://deco-sites-storefront.deno.dev/saia-jeans-light-passion/p",
+        "position": 4
+      }
+    ],
+    "numberOfItems": 4
+  },
+  "product": {
+    "@type": "Product",
+    "category": "Feminino>Roupas>Saias",
+    "productID": "361",
+    "url": "https://deco-sites-storefront.deno.dev/saia-jeans-light-passion/p?skuId=361",
+    "name": "Saia Jeans Light Passion PP",
+    "description": "A Melhor Saia Jeans Light Passion",
+    "brand": {
+      "@type": "Brand",
+      "@id": "2000000",
+      "name": "VTEX Fashion"
+    },
+    "inProductGroupWithID": "74",
+    "sku": "361",
+    "gtin": "789456123007401",
+    "releaseDate": 1622419200000,
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Tamanho",
+        "value": "34",
+        "valueReference": "SPECIFICATION"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "category",
+        "propertyID": "2",
+        "value": "Feminino"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "category",
+        "propertyID": "5",
+        "value": "Roupas"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "category",
+        "propertyID": "9",
+        "value": "Saias"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "cluster",
+        "value": "Todos os produtos",
+        "propertyID": "156"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "cluster",
+        "value": "Coleção Liberdade",
+        "propertyID": "163"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "RefId",
+        "value": "496",
+        "valueReference": "ReferenceID"
+      }
+    ],
+    "isVariantOf": {
+      "@type": "ProductGroup",
+      "productGroupID": "74",
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "category": "Feminino>Roupas>Saias",
+          "productID": "361",
+          "url": "https://deco-sites-storefront.deno.dev/saia-jeans-light-passion/p?skuId=361",
+          "name": "Saia Jeans Light Passion PP",
+          "description": "A Melhor Saia Jeans Light Passion",
+          "brand": {
+            "@type": "Brand",
+            "@id": "2000000",
+            "name": "VTEX Fashion"
+          },
+          "inProductGroupWithID": "74",
+          "sku": "361",
+          "gtin": "789456123007401",
+          "releaseDate": 1622419200000,
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Tamanho",
+              "value": "34",
+              "valueReference": "SPECIFICATION"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "category",
+              "propertyID": "2",
+              "value": "Feminino"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "category",
+              "propertyID": "5",
+              "value": "Roupas"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "category",
+              "propertyID": "9",
+              "value": "Saias"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "cluster",
+              "value": "Todos os produtos",
+              "propertyID": "156"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "cluster",
+              "value": "Coleção Liberdade",
+              "propertyID": "163"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "RefId",
+              "value": "496",
+              "valueReference": "ReferenceID"
+            }
+          ],
+          "image": [
+            {
+              "@type": "ImageObject",
+              "alternateName": "Saia Jeans Light Vermelha",
+              "url": "https://bravtexfashionstore.vtexassets.com/arquivos/ids/155683/saia-jeans-light-vermelha.jpg?v=637685626953070000",
+              "name": "Saia Jeans Light Vermelha",
+              "encodingFormat": "image"
+            }
+          ],
+          "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "BRL",
+            "highPrice": 159,
+            "lowPrice": 159,
+            "offerCount": 1,
+            "offers": [
+              {
+                "@type": "Offer",
+                "price": 159,
+                "seller": "1",
+                "sellerName": "VTEX",
+                "priceValidUntil": "2025-03-20T18:33:28Z",
+                "inventoryLevel": {
+                  "value": 10000
+                },
+                "giftSkuIds": [
+                  
+                ],
+                "teasers": [
+                  
+                ],
+                "priceSpecification": [
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/ListPrice",
+                    "price": 289
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SRP",
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Visa",
+                    "description": "Visa à vista",
+                    "billingDuration": 1,
+                    "billingIncrement": 159,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Mastercard",
+                    "description": "Mastercard à vista",
+                    "billingDuration": 1,
+                    "billingIncrement": 159,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Mastercard",
+                    "description": "Mastercard 2 vezes sem juros",
+                    "billingDuration": 2,
+                    "billingIncrement": 79.5,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Mastercard",
+                    "description": "Mastercard 3 vezes sem juros",
+                    "billingDuration": 3,
+                    "billingIncrement": 53,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Promissory",
+                    "description": "Promissory à vista",
+                    "billingDuration": 1,
+                    "billingIncrement": 159,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Pix",
+                    "description": "Pix à vista",
+                    "billingDuration": 1,
+                    "billingIncrement": 159,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Cartão VTEX Fashion",
+                    "description": "Cartão VTEX Fashion à vista",
+                    "billingDuration": 1,
+                    "billingIncrement": 159,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Cartão VTEX Fashion",
+                    "description": "Cartão VTEX Fashion 2 vezes sem juros",
+                    "billingDuration": 2,
+                    "billingIncrement": 79.5,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Cartão VTEX Fashion",
+                    "description": "Cartão VTEX Fashion 3 vezes sem juros",
+                    "billingDuration": 3,
+                    "billingIncrement": 53,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Cartão VTEX Fashion",
+                    "description": "Cartão VTEX Fashion 4 vezes sem juros",
+                    "billingDuration": 4,
+                    "billingIncrement": 39.75,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Cartão VTEX Fashion",
+                    "description": "Cartão VTEX Fashion 5 vezes sem juros",
+                    "billingDuration": 5,
+                    "billingIncrement": 31.8,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Cartão VTEX Fashion",
+                    "description": "Cartão VTEX Fashion 6 vezes sem juros",
+                    "billingDuration": 6,
+                    "billingIncrement": 26.5,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Cartão VTEX Fashion",
+                    "description": "Cartão VTEX Fashion 7 vezes sem juros",
+                    "billingDuration": 7,
+                    "billingIncrement": 22.71,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Cartão VTEX Fashion",
+                    "description": "Cartão VTEX Fashion 8 vezes sem juros",
+                    "billingDuration": 8,
+                    "billingIncrement": 19.87,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Cartão VTEX Fashion",
+                    "description": "Cartão VTEX Fashion 9 vezes sem juros",
+                    "billingDuration": 9,
+                    "billingIncrement": 17.66,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Cartão VTEX Fashion",
+                    "description": "Cartão VTEX Fashion 10 vezes sem juros",
+                    "billingDuration": 10,
+                    "billingIncrement": 15.9,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Cartão VTEX Fashion",
+                    "description": "Cartão VTEX Fashion 11 vezes sem juros",
+                    "billingDuration": 11,
+                    "billingIncrement": 14.45,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Cartão VTEX Fashion",
+                    "description": "Cartão VTEX Fashion 12 vezes sem juros",
+                    "billingDuration": 12,
+                    "billingIncrement": 13.25,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Cartão VTEX Fashion",
+                    "description": "Cartão VTEX Fashion 13 vezes sem juros",
+                    "billingDuration": 13,
+                    "billingIncrement": 12.23,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Cartão VTEX Fashion",
+                    "description": "Cartão VTEX Fashion 14 vezes sem juros",
+                    "billingDuration": 14,
+                    "billingIncrement": 11.35,
+                    "price": 159
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/SalePrice",
+                    "priceComponentType": "https://schema.org/Installment",
+                    "name": "Cartão VTEX Fashion",
+                    "description": "Cartão VTEX Fashion 15 vezes sem juros",
+                    "billingDuration": 15,
+                    "billingIncrement": 10.6,
+                    "price": 159
+                  }
+                ],
+                "availability": "https://schema.org/InStock"
+              }
+            ]
+          }
+        }
+      ],
+      "url": "https://deco-sites-storefront.deno.dev/saia-jeans-light-passion/p",
+      "name": "Saia Jeans Light Passion",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Cor",
+          "value": "VERMELHA",
+          "valueReference": "PROPERTY"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Tamanho",
+          "value": "34",
+          "valueReference": "PROPERTY"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sellerId",
+          "value": "1",
+          "valueReference": "PROPERTY"
+        }
+      ]
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "alternateName": "Saia Jeans Light Vermelha",
+        "url": "https://bravtexfashionstore.vtexassets.com/arquivos/ids/155683/saia-jeans-light-vermelha.jpg?v=637685626953070000",
+        "name": "Saia Jeans Light Vermelha",
+        "encodingFormat": "image"
+      }
+    ],
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "BRL",
+      "highPrice": 159,
+      "lowPrice": 159,
+      "offerCount": 1,
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": 159,
+          "seller": "1",
+          "sellerName": "VTEX",
+          "priceValidUntil": "2025-03-20T18:33:28Z",
+          "inventoryLevel": {
+            "value": 10000
+          },
+          "giftSkuIds": [
+            
+          ],
+          "teasers": [
+            
+          ],
+          "priceSpecification": [
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/ListPrice",
+              "price": 289
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SRP",
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Visa",
+              "description": "Visa à vista",
+              "billingDuration": 1,
+              "billingIncrement": 159,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Mastercard",
+              "description": "Mastercard à vista",
+              "billingDuration": 1,
+              "billingIncrement": 159,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Mastercard",
+              "description": "Mastercard 2 vezes sem juros",
+              "billingDuration": 2,
+              "billingIncrement": 79.5,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Mastercard",
+              "description": "Mastercard 3 vezes sem juros",
+              "billingDuration": 3,
+              "billingIncrement": 53,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Promissory",
+              "description": "Promissory à vista",
+              "billingDuration": 1,
+              "billingIncrement": 159,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Pix",
+              "description": "Pix à vista",
+              "billingDuration": 1,
+              "billingIncrement": 159,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Cartão VTEX Fashion",
+              "description": "Cartão VTEX Fashion à vista",
+              "billingDuration": 1,
+              "billingIncrement": 159,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Cartão VTEX Fashion",
+              "description": "Cartão VTEX Fashion 2 vezes sem juros",
+              "billingDuration": 2,
+              "billingIncrement": 79.5,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Cartão VTEX Fashion",
+              "description": "Cartão VTEX Fashion 3 vezes sem juros",
+              "billingDuration": 3,
+              "billingIncrement": 53,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Cartão VTEX Fashion",
+              "description": "Cartão VTEX Fashion 4 vezes sem juros",
+              "billingDuration": 4,
+              "billingIncrement": 39.75,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Cartão VTEX Fashion",
+              "description": "Cartão VTEX Fashion 5 vezes sem juros",
+              "billingDuration": 5,
+              "billingIncrement": 31.8,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Cartão VTEX Fashion",
+              "description": "Cartão VTEX Fashion 6 vezes sem juros",
+              "billingDuration": 6,
+              "billingIncrement": 26.5,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Cartão VTEX Fashion",
+              "description": "Cartão VTEX Fashion 7 vezes sem juros",
+              "billingDuration": 7,
+              "billingIncrement": 22.71,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Cartão VTEX Fashion",
+              "description": "Cartão VTEX Fashion 8 vezes sem juros",
+              "billingDuration": 8,
+              "billingIncrement": 19.87,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Cartão VTEX Fashion",
+              "description": "Cartão VTEX Fashion 9 vezes sem juros",
+              "billingDuration": 9,
+              "billingIncrement": 17.66,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Cartão VTEX Fashion",
+              "description": "Cartão VTEX Fashion 10 vezes sem juros",
+              "billingDuration": 10,
+              "billingIncrement": 15.9,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Cartão VTEX Fashion",
+              "description": "Cartão VTEX Fashion 11 vezes sem juros",
+              "billingDuration": 11,
+              "billingIncrement": 14.45,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Cartão VTEX Fashion",
+              "description": "Cartão VTEX Fashion 12 vezes sem juros",
+              "billingDuration": 12,
+              "billingIncrement": 13.25,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Cartão VTEX Fashion",
+              "description": "Cartão VTEX Fashion 13 vezes sem juros",
+              "billingDuration": 13,
+              "billingIncrement": 12.23,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Cartão VTEX Fashion",
+              "description": "Cartão VTEX Fashion 14 vezes sem juros",
+              "billingDuration": 14,
+              "billingIncrement": 11.35,
+              "price": 159
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "priceType": "https://schema.org/SalePrice",
+              "priceComponentType": "https://schema.org/Installment",
+              "name": "Cartão VTEX Fashion",
+              "description": "Cartão VTEX Fashion 15 vezes sem juros",
+              "billingDuration": 15,
+              "billingIncrement": 10.6,
+              "price": 159
+            }
+          ],
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    }
+  },
+  "seo": {
+    "title": "A Melhor Saia Jeans Light Passion",
+    "description": "A Melhor Saia Jeans Light Passion",
+    "canonical": "https://deco-sites-storefront.deno.dev/saia-jeans-light-passion/p"
+  }
+}
