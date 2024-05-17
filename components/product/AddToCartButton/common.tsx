@@ -55,7 +55,7 @@ export default function AddToCartButton(props: Props) {
     <>
       <Button
         {...btnProps}
-        class="btn md:w-max md:mt-auto w-24 bg-orange-900 text-[.625rem] uppercase text-neutral-50 font-bold p-1 py-2 md:p-4 rounded-md hover:bg-orange-800"
+        class="btn flex-1 md:w-max md:mt-auto w-full bg-orange-900 text-[.625rem] uppercase text-neutral-50 font-bold p-1 py-2 md:p-4 rounded-md hover:bg-orange-800"
       >
         Adicionar ao carrinho
       </Button>

@@ -116,7 +116,7 @@ export default function LikeButton({ productId }: { productId: string }) {
     <>
       <button
         type="button"
-        class="btn btn-outline w-full mt-auto mb-2 border-orange-900 text-[.625rem] uppercase text-orange-900 font-bold px-4 rounded-md hover:bg-neutral-300"
+        class="btn btn-outline md:w-full mt-auto mb-2 border-orange-900 text-[.625rem] uppercase text-orange-900 font-bold px-4 rounded-md hover:bg-neutral-300"
         onClick={updateProductLikes}
       >
         <LikesLabel likes={likes} />
